@@ -1,2 +1,2 @@
-# proyectos-arduino
-Hola en este repositorio podras encontrar proyectos para probar ha hacer con una placa arduinoy diversas cosas mas.
+# Proyectos de arduino.
+Hola, en este repositorio encontrareis distintos proyectos de arduino para hacer en vuestrar casas y así poder practicar y aprender.

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="tareas"></div>
+    <br><br>
+    <h1 class="titulo">Nivel 2</h1>
+    <br><br>
+    <div>
+        <div class="titulo2">
+        <h2>SEMÁFORO CON BOTON</h2>
+        <h2>NADA</h2>
+        </div>
+        <br>
+
+        <div class="fotos">
+            <img src="Fotos/Semaforo.jpeg" alt="" width="45%">
+            <img src="" alt="">
+        </div>
+        <br>
+
+        <div class="boton">
+            <a href="Nivel2/semaforo_con_boton.zip" download="semaforo_con_boton.zip">Descargar</a>
+            <a href=""></a>
+        </div>
+    </div>
+    
+    
+    <script>
+        
+  const div = document.getElementById("tareas");
+
+  fetch("barra.html")
+    .then(response => response.text())
+    .then(data => {
+        div.innerHTML = data;
+    })
+    .catch(error => console.log("Error cargando barra:", error));
+    </script>
+</body>
+</html>

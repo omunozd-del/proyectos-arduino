@@ -1,0 +1,93 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.barra{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+} 
+
+.lista{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.barra2{
+    background-color: lightcyan;
+    color: black;
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo{
+    text-align: center;
+    background-color: lightseagreen;
+    font-weight: bold;
+    font-size: 24px;
+    color: lightblue;
+    margin-right: auto;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    background-color: darkgreen;
+    color: lightgreen;
+    border-radius: 10px;
+    font-size: 32.5px;
+}
+
+.descripcion{
+    text-align: center;
+    padding: 10px;
+    background-color: limegreen;
+    color: rgb(1, 67, 31);
+    border-radius: 10px;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: lightgreen;
+    color: darkgreen;
+    border-radius: 10px;
+}
+
+.boton{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton a{
+    background-color: rgb(40, 241, 207);
+    color: rgb(4, 63, 167);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotos img{
+    border-radius: 10px;
+}
