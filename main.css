@@ -91,3 +91,27 @@ body{
 .fotos img{
     border-radius: 10px;
 }
+
+.imag{
+   display: flex;
+   justify-content: center;
+}
+
+.imag img{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.descargar{
+    justify-content: center;
+}
+
+.descargar a{ 
+background-color:rgb(40, 241, 207);
+color: rgb(4, 63, 167);
+padding: 10px 20px;
+border-radius: 10px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
