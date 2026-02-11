@@ -131,7 +131,7 @@ transition: background-color 0.3s ease;
 }
 
 
-.librerias a{
+.librerias ul li a{
     color: blue;
     text-decoration: underline;
 }
