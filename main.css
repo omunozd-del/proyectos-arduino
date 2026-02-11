@@ -129,3 +129,12 @@ transition: background-color 0.3s ease;
     color: blue;
     background-color: transparent;
 }
+
+.librerias{
+    list-style: decimal;
+    text-decoration: underline;
+}
+
+.librerias a{
+    color: blue;
+}
