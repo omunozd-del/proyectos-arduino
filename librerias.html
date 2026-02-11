@@ -18,14 +18,15 @@
         </ul>
     </div>
     <script>
-        const div = document.getElemtById("tareas");
 
-        fetch("barra.html")
-          .then(response => response.text())
-          .then(data => {
-            div.innerHTML = data;
-          })
-          .catch(error => console.log("Error cargando barra:", error));
+    const div = document.getElemtById("tareas");
+
+    fetch("barra.html")
+      .then(response => response.text())
+      .then(data => {
+         div.innerHTML = data;
+      })
+    .catch(error => console.log("Error cargando barra:", error));
     </script>
 </body>
 </html>
