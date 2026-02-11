@@ -130,17 +130,13 @@ transition: background-color 0.3s ease;
     background-color: transparent;
 }
 
-.librerias{
-    list-style: decimal;
-    text-decoration: underline;
-}
 
 .librerias a{
     color: blue;
     text-decoration: underline;
 }
 
-.descripcion2{
+.librerias{
     text-align: left;
     padding: 10px;
     border-radius: 10px;
