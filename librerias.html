@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div id="tareas"></div>
     
+    <script>
+        const div = document.getElemtById("tareas");
+
+        fetch("barra.html")
+          .then(response => response.text())
+          .then(data => {
+            div.innerHTML = data;
+          })
+          .catch(error => console.log("Error cargando barra:", error));
+    </script>
 </body>
 </html>
