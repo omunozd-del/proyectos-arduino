@@ -15,21 +15,22 @@
     <div class="librerias">
         <ul>
             <li>Librerías de arduino bloks: <a href="https://www.steamakersblocks.com/web/help/libraries" target="_blank">Ver</a>.</li>
-            <li>Descargar Arduino IDE: <a href="https://www.arduino.cc/en/software/#ide">Ver</a>.</li>
+            <li>Descargar Arduino IDE: <a href="https://www.arduino.cc/en/software/#ide" target="_blank">Ver</a>.</li>
+            <li>Comprar Arduino UNO: <a href="https://store.arduino.cc/products/arduino-uno-rev3-smd?queryID=undefined" target="_blank">Ver</a>.</li>
+            <li>Comprar pack arduino: <a href="https://store.arduino.cc/products/arduino-student-kit?queryID=a70bf08ed0a25f2b449efd1b36f32847" target="_blank">Ver</a>.</li>
         </ul>
     </div>
 
-    
     <script>
-
-    const div = document.getElemtById("tareas");
-
-    fetch("barra.html")
-      .then(response => response.text())
-      .then(data => {
-         div.innerHTML = data;
-      })
-    .catch(error => console.log("Error cargando barra:", error));
-    </script>
+        
+        const div = document.getElementById("tareas");
+      
+        fetch("barra.html")
+          .then(response => response.text())
+          .then(data => {
+              div.innerHTML = data;
+          })
+          .catch(error => console.log("Error cargando barra:", error));
+          </script>
 </body>
 </html>
